@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 530e556d4407947dcae7102ff497587d, type: 3}
+  m_Name: UI_HealthBar
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"title":"Health Bar","summary":null,"pan":{"x":57.0,"y":1.0},"zoom":1.0,"elements":[{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Start","summary":null,"pan":{"x":201.0893,"y":96.34853},"zoom":1.0,"elements":[{"argumentCount":1,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"TriggerHealthBar","$type":"System.String"}},"position":{"x":-251.0,"y":54.0},"guid":"1ffa2ac4-27e9-487c-96e4-3186d5f9eec1","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"13"},{"defaultValues":{},"position":{"x":16.0,"y":142.0},"guid":"d256844d-434b-4e6f-8d44-4bd2deb5923d","$version":"A","$type":"Unity.VisualScripting.GenericDivide","$id":"15"},{"type":"System.Single","value":{"$content":100.0,"$type":"System.Single"},"defaultValues":{},"position":{"x":-131.0,"y":220.0},"guid":"d651a500-7a7a-4271-80d1-091064e6b343","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"17"},{"chainable":false,"member":{"name":"fillAmount","parameterTypes":null,"targetType":"UnityEngine.UI.Image","targetTypeName":"UnityEngine.UI.Image","$version":"A"},"defaultValues":{"target":null,"input":{"$content":0.0,"$type":"System.Single"}},"position":{"x":171.0,"y":59.0},"guid":"2651ba3b-b7ff-4632-ac7c-b778eca9ac77","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"19"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"19"},"destinationKey":"assign","guid":"9e26ae6d-d07e-477e-8db4-0205f12e9a66","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"argument_0","destinationUnit":{"$ref":"15"},"destinationKey":"dividend","guid":"233d1cd9-8406-4192-ad85-eaade30f0549","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"output","destinationUnit":{"$ref":"15"},"destinationKey":"divisor","guid":"55164669-92a2-4c3e-8711-c6baf56ca64c","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"quotient","destinationUnit":{"$ref":"19"},"destinationKey":"input","guid":"87778513-eed5-4c7b-865a-67f1b7d9643c","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-344.0,"yMin":-23.0,"xMax":359.0,"yMax":334.0},"label":"Evento
+      que actualiza la barra de vida","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"539b5c66-9627-4d49-83cf-0e8af3c8b417","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}},"isStart":true,"position":{"x":-86.0,"y":-15.0},"width":170.0,"guid":"9918369d-289c-4190-9354-699bc76548ad","$version":"A","$type":"Unity.VisualScripting.FlowState"}],"$version":"A"}}'
+    _objectReferences: []

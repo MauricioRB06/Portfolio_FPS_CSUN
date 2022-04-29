@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Maps/MainMenu.unity
+    guid: b24983d50840d3f478e1dd6cf11db6a2
+  - enabled: 1
+    path: Assets/Maps/Level_1.unity
+    guid: 83dff657e619cfe46a96d0908b7b7096
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: d97f756c6f062a3458f2a84d94cab2f7,
+      type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 266fa12715be0f94ebee0a686c553805,
+      type: 2}

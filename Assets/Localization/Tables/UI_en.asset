@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: f2efc0a2f014664428c1252109d8ee08, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 202617036800
+    m_Localized: RESUME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181041537024
+    m_Localized: BACK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20416471040
+    m_Localized: PLAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41832587264
+    m_Localized: OPTIONS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81317765120
+    m_Localized: CREDITS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107389558784
+    m_Localized: QUIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141816406016
+    m_Localized: MENU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 451557367808
+    m_Localized: FULL SCREEN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 555676770304
+    m_Localized: SELECT A LANGUAGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 673985503232
+    m_Localized: Video game made as a demonstration for the introductory course to
+      video game development in Unity 2022.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 784589299712
+    m_Localized: "Developed By: Mauricio Rodr\xEDguez\r\n\r\nUnity version: 2021.3.1f1
+      LTS\r\n\r\nLanguage: Visual Scripting Bolt"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2517268865024
+    m_Localized: Game is paused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4163268943872
+    m_Localized: You have escaped!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4191802793984
+    m_Localized: You are dead!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4205685940224
+    m_Localized: 'Zombies eliminated:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4755064266752
+    m_Localized: You have picked up a key!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5490157985792
+    m_Localized: Press [ F ] To open the door
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5506280890368
+    m_Localized: Press [ F ] To close the door
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5723113824256
+    m_Localized: The door is locked, it seems to be locked from the other side
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5741195468800
+    m_Localized: The door is locked, you need a key to open it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5768441667584
+    m_Localized: You have used a key, the door has been unlocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12181557649408
+    m_Localized: LOADING GAME...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15929847750656
+    m_Localized: ESCAPE ALIVE!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 649209613819904
+    m_Localized: NEW GAME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 650278846767104
+    m_Localized: HOW TO PLAY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 650337135009792
+    m_Localized: USE THE KEYS TO MOVE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 650412720562176
+    m_Localized: USE THE MOUSE TO MOVE THE CAMERA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 650561945509888
+    m_Localized: Be careful, some objects may explode!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

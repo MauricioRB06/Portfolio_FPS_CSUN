@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: f2efc0a2f014664428c1252109d8ee08, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 202617036800
+    m_Localized: CONTINUAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181041537024
+    m_Localized: REGRESAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20416471040
+    m_Localized: JUGAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41832587264
+    m_Localized: OPCIONES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81317765120
+    m_Localized: CREDITOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107389558784
+    m_Localized: SALIR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141816406016
+    m_Localized: MENU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 451557367808
+    m_Localized: PANTALLA COMPLETA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 555676770304
+    m_Localized: SELECCIONE UN IDIOMA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 673985503232
+    m_Localized: "Videojuego realizado como demostraci\xF3n para el curso de introducci\xF3n
+      al desarrollo de videojuegos en Unity 2022"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 784589299712
+    m_Localized: "Desarrollado Por: Mauricio Rodr\xEDguez\r\n\nVersi\xF3n de Unity:
+      2021.3.1f1 LTS\r\n\nLenguaje: Visual Scripting Bolt"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2517268865024
+    m_Localized: El Juego esta en pausa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4163268943872
+    m_Localized: "\xA1Has escapado!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4191802793984
+    m_Localized: "\xA1Has Muerto!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4205685940224
+    m_Localized: 'Zombies eliminados:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4755064266752
+    m_Localized: "\xA1Haz Recogido una llave!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5490157985792
+    m_Localized: Presiona [ F ] Para abrir la puerta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5506280890368
+    m_Localized: Presiona [ F ] Para cerrar la puerta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5723113824256
+    m_Localized: La puerta esta bloqueada, paraece estar cerrada desde el otro lado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5741195468800
+    m_Localized: La puerta esta bloqueada, necesitas una llave para abrirla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5768441667584
+    m_Localized: Haz Utilizado una llave, la puerta se ha desbloqueado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12181557649408
+    m_Localized: CARGANDO PARTIDA...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15929847750656
+    m_Localized: "\xA1ESCAPA CON VIDA!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 649209613819904
+    m_Localized: NUEVA PARTIDA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 650278846767104
+    m_Localized: COMO JUGAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 650337135009792
+    m_Localized: UTILIZA LAS TECLAS PARA MOVERTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 650412720562176
+    m_Localized: "UTILIZA EL MOUSE PARA MOVER LA C\xC1MARA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 650561945509888
+    m_Localized: "Ten cuidado, \xA1algunos objetos pueden explotar!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 530e556d4407947dcae7102ff497587d, type: 3}
+  m_Name: UI_LoadingGame
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Start","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":true,"defaultValues":{},"position":{"x":-205.0,"y":-215.0},"guid":"4ca0ee81-e483-45ac-8270-ef3e0ede7bfe","$version":"A","$type":"Unity.VisualScripting.OnEnterState","$id":"13"},{"defaultValues":{"duration":{"$content":2.0,"$type":"System.Single"},"unscaledTime":{"$content":false,"$type":"System.Boolean"}},"position":{"x":14.0,"y":-216.0},"guid":"631ee789-b179-493d-bb94-ca4aecbadaaa","$version":"A","$type":"Unity.VisualScripting.Cooldown","$id":"15"},{"chainable":false,"member":{"name":"Destroy","parameterTypes":["UnityEngine.Object"],"targetType":"UnityEngine.Component","targetTypeName":"UnityEngine.Component","$version":"A"},"defaultValues":{"%obj":null},"position":{"x":307.0,"y":-154.0},"guid":"1f305ec0-3756-4a17-8c45-1c076dc78ded","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"17"},{"defaultValues":{},"position":{"x":137.0,"y":-7.0},"guid":"b0435c0e-7926-4f2d-b178-d02cda1e9fb9","$version":"A","$type":"Unity.VisualScripting.This","$id":"20"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"9cbfb1c0-da6c-4589-857d-2506a33f22e5","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"becameReady","destinationUnit":{"$ref":"17"},"destinationKey":"enter","guid":"3e17da81-d32d-4e9d-af08-91e43cd1a2fd","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"self","destinationUnit":{"$ref":"17"},"destinationKey":"%obj","guid":"603add5c-ddac-4c7d-bd16-5c3ae2c15068","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-236.0,"yMin":-277.0,"xMax":450.0,"yMax":108.0},"label":"Muestra
+      la pantalla de carga mientras carga el mapa y luego la destruye","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"d908b7c6-ed5e-40dd-8719-f93d7cf2e792","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}},"isStart":true,"position":{"x":-86.0,"y":-15.0},"width":170.0,"guid":"abc6ab45-32b8-48f9-bf52-13959a7936b8","$version":"A","$type":"Unity.VisualScripting.FlowState"}],"$version":"A"}}'
+    _objectReferences: []

@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI
+  m_TableCollectionNameGuidString: f2efc0a2f014664428c1252109d8ee08
+  m_Entries:
+  - m_Id: 181041537024
+    m_Key: ButtonBack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81317765120
+    m_Key: ButtonCredits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141816406016
+    m_Key: ButtonMenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41832587264
+    m_Key: ButtonOptions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20416471040
+    m_Key: ButtonPlay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107389558784
+    m_Key: ButtonQuit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 202617036800
+    m_Key: ButtonResume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5506280890368
+    m_Key: CloseDoor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 784589299712
+    m_Key: CreditsDataText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 673985503232
+    m_Key: CreditsMainText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5723113824256
+    m_Key: DoorLocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5741195468800
+    m_Key: DoorNeedKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5768441667584
+    m_Key: DoorUnlocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4163268943872
+    m_Key: End_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4191802793984
+    m_Key: End_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 451557367808
+    m_Key: FullScreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12181557649408
+    m_Key: LoadGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15929847750656
+    m_Key: Mission
+    m_Metadata:
+      m_Items: []
+  - m_Id: 649209613819904
+    m_Key: ButtonNewGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5490157985792
+    m_Key: OpenDoor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2517268865024
+    m_Key: PauseGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4755064266752
+    m_Key: PickupKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 555676770304
+    m_Key: SelectLanguague
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4205685940224
+    m_Key: ZombiesEliminated
+    m_Metadata:
+      m_Items: []
+  - m_Id: 650278846767104
+    m_Key: HowToPlay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 650337135009792
+    m_Key: Keyboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 650412720562176
+    m_Key: Mouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 650561945509888
+    m_Key: Warning
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1198560538519666690
+  references:
+    version: 2
+    RefIds:
+    - rid: 1198560538519666690
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1650620360716

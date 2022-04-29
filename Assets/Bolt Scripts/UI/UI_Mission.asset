@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 530e556d4407947dcae7102ff497587d, type: 3}
+  m_Name: UI_Mission
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Start","summary":null,"pan":{"x":-61.0,"y":-1.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-220.0,"y":-216.0},"guid":"8532b055-d306-4227-8368-2e9b36f81354","$version":"A","$type":"Unity.VisualScripting.OnEnterState","$id":"13"},{"defaultValues":{"duration":{"$content":5.0,"$type":"System.Single"},"unscaledTime":{"$content":false,"$type":"System.Boolean"}},"position":{"x":-20.0,"y":-217.0},"guid":"3c31951d-a91e-4b2e-8a0d-a8ff77303fbf","$version":"A","$type":"Unity.VisualScripting.Cooldown","$id":"15"},{"chainable":false,"member":{"name":"Destroy","parameterTypes":["UnityEngine.Object"],"targetType":"UnityEngine.Component","targetTypeName":"UnityEngine.Component","$version":"A"},"defaultValues":{"%obj":null},"position":{"x":253.0,"y":-156.0},"guid":"02ab6f25-c8f7-41a2-bdfb-fcd800fdee5b","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"17"},{"defaultValues":{},"position":{"x":100.0,"y":-13.0},"guid":"5bc5543f-d906-483a-ba01-2bda148730fd","$version":"A","$type":"Unity.VisualScripting.This","$id":"20"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"46a75e28-97fa-40ec-8c36-7c5c894059de","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"becameReady","destinationUnit":{"$ref":"17"},"destinationKey":"enter","guid":"452a9b8b-59b1-4065-8b08-a7e02125974c","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"self","destinationUnit":{"$ref":"17"},"destinationKey":"%obj","guid":"d2519210-f120-44b2-85ef-b071efbaed68","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-286.0,"yMin":-292.0,"xMax":405.0,"yMax":105.0},"label":"Muestra
+      la mision de la partida y luego se destruye","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"ca7dee49-412e-49da-b2db-08c655130eb2","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}},"isStart":true,"position":{"x":-86.0,"y":-15.0},"width":170.0,"guid":"cecef78c-447a-482b-b3b9-9e124eddc679","$version":"A","$type":"Unity.VisualScripting.FlowState"}],"$version":"A"}}'
+    _objectReferences: []

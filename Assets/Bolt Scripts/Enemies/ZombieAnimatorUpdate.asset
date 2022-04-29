@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 530e556d4407947dcae7102ff497587d, type: 3}
+  m_Name: ZombieAnimatorUpdate
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"title":"zombie Animator Update","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Start","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-72.0,"y":-93.0},"guid":"e6a3f030-b838-4f16-96f9-6d84e46f98d7","$version":"A","$type":"Unity.VisualScripting.Update","$id":"13"},{"member":{"name":"velocity","parameterTypes":null,"targetType":"UnityEngine.AI.NavMeshAgent","targetTypeName":"UnityEngine.AI.NavMeshAgent","$version":"A"},"defaultValues":{"target":null},"position":{"x":-276.0,"y":16.0},"guid":"f53464a8-bdc3-45ea-9709-9458964ab836","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"15"},{"member":{"name":"magnitude","parameterTypes":null,"targetType":"UnityEngine.Vector3","targetTypeName":"UnityEngine.Vector3","$version":"A"},"defaultValues":{"target":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":-92.0,"y":16.0},"guid":"b27dbb84-c69e-454a-83e5-c48aca90c843","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"18"},{"chainable":false,"member":{"name":"SetFloat","parameterTypes":["System.String","System.Single"],"targetType":"UnityEngine.Animator","targetTypeName":"UnityEngine.Animator","$version":"A"},"defaultValues":{"target":null,"%name":{"$content":"MoveSpeed","$type":"System.String"},"%value":{"$content":0.0,"$type":"System.Single"}},"position":{"x":108.0,"y":-94.0},"guid":"8228ce5c-8dca-4514-82e6-0d6850a46687","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"21"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"21"},"destinationKey":"enter","guid":"bf833b26-6e22-492c-98a1-8cacfa97e36a","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"18"},"destinationKey":"target","guid":"f2f31672-42c7-44f6-bc39-aa85d8c2629c","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"21"},"destinationKey":"%value","guid":"8dc54080-7d80-4e3c-90f3-3d662eed2338","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-311.0,"yMin":-138.0,"xMax":307.0,"yMax":120.0},"label":"Actualiza
+      la velocidad en el animador, para cambiar la animacion del zombie","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"c4300585-3b95-4f57-9488-308763696283","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}},"isStart":true,"position":{"x":-86.0,"y":-15.0},"width":170.0,"guid":"a2285bc6-c702-4e97-9720-2bf2fd70a535","$version":"A","$type":"Unity.VisualScripting.FlowState"}],"$version":"A"}}'
+    _objectReferences: []
