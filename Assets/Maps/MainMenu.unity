@@ -3672,7 +3672,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: -400, y: -100}
-  m_SizeDelta: {x: 700, y: 200}
+  m_SizeDelta: {x: 700, y: 338.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &974137183
 MonoBehaviour:
@@ -3695,7 +3695,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Elaborado Por: Mauricio Rodr\xEDguez\r\n\nVersi\xF3n de Unity: 2021.3.1f1
-    LTS\r\n\nLenguaje: Visual Scripting Bolt"
+    LTS\r\n\nLenguaje: Visual Scripting Bolt\n\nCompositor Musical:  @Shundizora
+    ( ig )"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f8039033c7f83db4f8165db40ec2c452, type: 2}
   m_sharedMaterial: {fileID: -3007775352659326771, guid: f8039033c7f83db4f8165db40ec2c452,
